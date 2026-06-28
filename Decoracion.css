@@ -1,0 +1,62 @@
+body {
+
+    font-family: Comic Sans MS, sans-serif;
+    background-color: #ffffff;
+    color: red;
+}
+p.titulo{
+    text-align: center;
+    font-size: 68px;
+    color: red;
+}
+.botones{
+    width: 100%;
+    height: auto;
+    background-color:#ffffff;
+    color:red;
+    margin: 5;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 40px;
+}
+.botones a{
+    color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.botones a:hover{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
+.botones :hover{
+    color:rgb(255, 255, 255);   
+    background-color:red;
+    transform:scale(1.03);
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
+p.texto{
+    color:#ffffff;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+p.texto:hover{
+    color:rgb(0, 0, 0);   
+    background-color:rgb(255, 0, 0);
+    transform:scale(1.03);
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
+p.texto-dibujos{
+    color:#ff0000;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    font-family: Comic Sans MS;
+}
